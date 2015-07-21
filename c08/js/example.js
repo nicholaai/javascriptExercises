@@ -45,7 +45,7 @@ $(function() {                                    // When the DOM is ready
     var fragment = this.href;                                 // Grab link to session
 
     fragment = fragment.replace('#', ' #');                   // Add space before # for load method formating
-    $('#details').load(fragment);                             // Load only desired id 
+    $('#details').load(fragment);                             // Load only desired id
 
     $('#sessions a.current').removeClass('current');          // Set new current class
     $(this).addClass('current');
